@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Grouping Suite">
+	<groups>
+		<run>
+			<!-- <include name="Sanity" /> -->
+			<include name="Regression" />
+			<!-- <exclude name="Sanity" /> -->
+		</run>
+	</groups>
+	<listeners>
+		<listener class-name="com.ltim.utilities.ExtentReportManager" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<parameter name="os" value="Windows" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.ltim.testcases.tc001_LoginTest" />
+			<class name="com.ltim.testcases.TC002_LoginDDT" />
+		</classes>
+	</test>
+</suite> 
+
+

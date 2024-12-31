@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Grouping Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.ltim.testcases.TC002_LoginDDT">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verify_LoginDDT" invocation-numbers="0 1 2 3 4"/>
+        </methods>
+      </class> <!-- com.ltim.testcases.TC002_LoginDDT -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Grouping Suite] -->

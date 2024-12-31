@@ -1,0 +1,7 @@
+[INFO ] 2024-12-30 17:24:42,108 Utils.info() - [TestNG] Running:
+  C:\Learnigs\Workspace\MyFirstProject\master.xml
+
+[INFO ] 2024-12-30 17:24:44,571 WebDriverManager.resolveDriverVersion() - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
+[INFO ] 2024-12-30 17:24:44,597 WebDriverManager.exportDriver() - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
+[INFO ] 2024-12-30 17:24:49,659 tc001_LoginTest.verifyUserLogin() - *****starting tc001_LoginTest *****
+[INFO ] 2024-12-30 17:24:50,188 tc001_LoginTest.verifyUserLogin() - *****Finished tc001_LoginTest *****
