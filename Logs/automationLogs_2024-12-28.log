@@ -1,5 +1,0 @@
-[INFO ] 2024-12-28 22:36:07,847 Utils.info() - [TestNG] Running:
-  C:\Learnigs\Workspace\MyFirstProject\master.xml
-
-[INFO ] 2024-12-28 22:36:08,441 WebDriverManager.resolveDriverVersion() - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
-[INFO ] 2024-12-28 22:36:08,473 WebDriverManager.exportDriver() - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
